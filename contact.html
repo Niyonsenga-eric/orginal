@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initiol-scale=1.8" />
+    <title>contact</title>
+    <link href="project.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><img src="./logo.jpg" class="cio" /></a>
+      <div class="nav-links" id="nav-links">
+        <i class="fa-fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+      <i class="fa fa bars" onclick="SharedWorker()"></i>
+    </nav>
+    <section class="location">
+      <h5>Rwanda</h5>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1020805.8446386311!2d29.88043595!3d-1.9436567500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19c29654e73840e3%3A0x7490b026cbcca103!2sRwanda!5e0!3m2!1sen!2srw!4v1686901987278!5m2!1sen!2srw"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>xyz road , abc house</h5>
+              <p>kabatwa center</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+250784456264</h5>
+              <p>monday to sunday,9:00am ,19:00pm</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>niyo@gmail.com</h5>
+              <p>email us your query</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="enter your name" required />
+            <input type="email" placeholder="enter email adress" required />
+            <input type="text" placeholder="enter your subject" required />
+          </form>
+          <textarea rows="8" placeholder="message" required></textarea>
+          <button type="submit" class="hello-btn red-btn">send message</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
